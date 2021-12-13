@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemfav"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="FAVORITOS"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itemempresa"
+        android:title="Empresa" />
+    <item
+        android:id="@+id/itemprod"
+        android:title="Productos" />
+    <item
+        android:id="@+id/itemserv"
+        android:title="Servicios" />
+    <item
+        android:id="@+id/itemsuc"
+        android:title="Sucursales" />
+</menu>
